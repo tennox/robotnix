@@ -207,6 +207,8 @@ def fetch_vendor_dirs(metadata: Any,
             motorola_gitlab = vendor.startswith('motorola/') and vendor not in [ 'motorola/nio', 'motorola/pstar', 'motorola/devon', 'motorola/rhode', 'motorola/hawao', 'motorola/sm8250-common', 'motorola/sm6225-common' ]
             if vendor == 'xiaomi' or (branch == 'lineage-20.0' and (motorola_gitlab or vendor in gitlab_vendors)):
                 real_url_base = "https://gitlab.com/the-muppets"
+        if vendor == "oneplus": # HACK because themuppets repo is now incl. device name: https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita
+            relpath += "/{device}"
 
         to_fetch = [ f"{real_url_base}/proprietary_{relpath.replace('/', '_')}" ];
 
@@ -246,7 +248,7 @@ def main() -> None:
         metadata = {}
         for product in args.product:
             vendor, device = product.split('_', 1)
-            metadata[device] = {'vendor': vendor}
+            metadata[device] = {'vendor': vendor, 'branch': args.branch}
 
     # Really?
     true_branch = args.branch

@@ -47,6 +47,18 @@
     "sha256": "1fb79yn6sm7a1kis051f2082ccxb75g6n1gm4nralf2j4sn5vrm0",
     "url": "https://github.com/TheMuppets/proprietary_vendor_oneplus_dumpling"
   },
+  "vendor/oneplus/fajita": {
+    "date": "2024-10-20T16:37:17Z",
+    "deepClone": false,
+    "fetchLFS": true,
+    "fetchSubmodules": false,
+    "hash": "sha256-KjeH2KKHaRI6Qu5nxXU5DxxXzDpiqC+XsWrSNcruWQk=",
+    "leaveDotGit": false,
+    "path": "/nix/store/gs6dfvkk5vkqna7rhxq89j1x60gvak5j-proprietary_vendor_oneplus_fajita",
+    "rev": "91bb0ea54fb0870c0b3ec2bc1c584ee456206cdf",
+    "sha256": "02arxv53blkan6bjza327b65f70g75swarzf88x14sc7lbc8fdra",
+    "url": "https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita"
+  },
   "vendor/oneplus/instantnoodlep": {
     "date": "2024-10-19T19:26:57+02:00",
     "deepClone": false,
@@ -70,6 +82,18 @@
     "rev": "7699ea95e49aebf14f2c609041d58e667ed5c424",
     "sha256": "0z19yjfcjiy6wwjgf7mhxfj12hs3pqi7zf93lwasmvjkn27xxhfs",
     "url": "https://github.com/TheMuppets/proprietary_vendor_oneplus_msm8998-common"
+  },
+  "vendor/oneplus/sdm845-common": {
+    "date": "2025-02-10T20:18:26Z",
+    "deepClone": false,
+    "fetchLFS": true,
+    "fetchSubmodules": false,
+    "hash": "sha256-3/mUBEEs54ZsZuOsV7wBviMX+BKNoBVQOfeah9yDJ/Q=",
+    "leaveDotGit": false,
+    "path": "/nix/store/0a6bg31my5w49v374926cb9ihqm3xyl0-proprietary_vendor_oneplus_sdm845-common",
+    "rev": "10456b6311f156bf4308fb6a46e0696549feaaef",
+    "sha256": "1x17hgf8g6pp7581b84d2bw1f8xy06y5gb73crn8drrc84299yfz",
+    "url": "https://github.com/TheMuppets/proprietary_vendor_oneplus_sdm845-common"
   },
   "vendor/oneplus/sm8250-common": {
     "date": "2025-01-18T18:53:25+01:00",
